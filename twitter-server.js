@@ -94,7 +94,7 @@ app.get('/tw', function(req, res){
 });
 
 app.get('/home', function(req, res){
-    res.send('<p>NearMe OAuth Webservice 2012</p> <h2>Supported:</h2> <ul><li><a href="/tw">twitter</a></li></ul>');
+    res.send('<p>OAuth Webservice 2012</p> <h2>Supported:</h2> <ul><li><a href="/tw">twitter</a></li></ul>');
 });
 
 app.get('*', function(req, res){
